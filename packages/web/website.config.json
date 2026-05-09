@@ -4,7 +4,6 @@
     "description": "Director portfolio for LokaninFilms — showcasing short films by filmmaker Andreas Daban Elvesund.",
     "url": "https://lokaninfilms.com",
     "hostname": "lokaninfilms.com",
-    "ogImage": "/og-image.png",
     "themeColor": "#1a1a1a",
     "twitter": {
         "card": "summary_large_image",
