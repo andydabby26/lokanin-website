@@ -1,11 +1,11 @@
 {
     "id": "website",
     "name": "LokaninFilms",
-    "og:description": LokaninFilms Website",
+    "og:description": "LokaninFilms Website",
     "og:url": "https://lokaninfilms.com",
     "url": "https://lokaninfilms.com",
     "og:title": "LokaninFilms",
-    "og:type="website",
+    "og:type": "website",
     "hostname": "lokaninfilms.com",
     "themeColor": "#1a1a1a",
     "twitter": {
