@@ -37,9 +37,6 @@ export default function Story() {
                   <p>
                     Lokanin is a team of young Swedish filmmakers based in Stockholm. The group is run by 16 year olds with real festival experience and a clear vision. The founder, Andreas Daban Elvesund, won Stockholm Film Festival Junior 2025 with Lokanin's short film Golden Hours.
                   </p>
-                  <p>
-                    In 2019, my interest in film began, and a year later I met Loke, who shared my passion, so we wanted to collaborate. Then we met Nils who came up with the idea for the whole company, and I realized we should have a website. So, we all decided on a company name that would be a combination of our names, Loke Andreas and Nils: Lokanin. And with the years we have improved a lot on everything.
-                  </p>
                 </div>
               </div>
 
