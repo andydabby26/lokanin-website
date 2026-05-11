@@ -45,7 +45,7 @@ export default function About() {
 
               <div className="space-y-10 sm:space-y-12 md:space-y-14 order-1 lg:order-2 lg:px-6 xl:px-10 lg:border-x border-white/5">
                 <div className="space-y-5 sm:space-y-6">
-                  <h1 className="font-display text-[clamp(2.25rem,8vw,4.5rem)] font-bold tracking-tighter uppercase leading-[0.9] break-words">Andreas daban elvesund</h1>
+                  <h1 className="font-display text-[clamp(2.25rem,8vw,4.5rem)] font-bold tracking-tighter uppercase leading-[0.9] break-words">Creator and vision</h1>
                   <p className="font-sans text-xs md:text-sm tracking-[0.15em] uppercase text-muted-foreground">Filmmaker, director, editor, piano player and photographer.</p>
                   <div className="space-y-4 sm:space-y-5 font-serif text-base sm:text-lg md:text-xl leading-relaxed text-foreground/80 max-w-2xl">
                     <p>
