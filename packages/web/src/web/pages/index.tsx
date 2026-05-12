@@ -59,12 +59,10 @@ export default function Index() {
             <h2 className="font-display text-2xl sm:text-3xl md:text-5xl font-bold tracking-tighter uppercase">Selected Project</h2>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-10 md:gap-14 items-start">
-            <div className="order-2 lg:order-1">
-              <ProjectCard project={featuredProject} index={0} />
-            </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start">
+            <ProjectCard project={featuredProject} index={0} />
 
-            <div className="order-1 lg:order-2 space-y-6 sm:space-y-8 md:space-y-10 lg:pt-2">
+            <div className="space-y-6 sm:space-y-8 md:space-y-10 lg:pt-2">
               <div className="space-y-4 sm:space-y-5">
                 <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Recognition & Accolades</h3>
                 <div className="space-y-4 sm:space-y-5 md:space-y-6">
