@@ -6,7 +6,6 @@ export function Metadata() {
       <title>{siteConfig.name}</title>
       <meta name="description" content={siteConfig.description} />
       <link rel="icon" type="image/png" href="/favicon.png" />
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <link rel="apple-touch-icon" href="/favicon.png" />
       <meta property="og:title" content={siteConfig.name} />
       <meta property="og:description" content={siteConfig.description} />
