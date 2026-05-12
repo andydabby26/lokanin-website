@@ -6,6 +6,7 @@ export interface Project {
   format: string;
   image: string;
   thumbnail?: string;
+  mobileImage?: string;
   description: string;
   videoUrl?: string;
   note?: string;
@@ -21,8 +22,9 @@ export const projects: Project[] = [
     format: "Short film",
     image: "/images/project-golden-hours-beach.jpg",
     thumbnail: "/images/hero-golden-hours.jpg",
+    mobileImage: "/images/poster-golden-hours.jpg",
     videoUrl: "https://www.youtube.com/embed/xhMJWNTb5-w",
-    description: "", // Removed per task 23
+    description: "",
     note: "I wanted to capture the feeling of a memory fading—that specific light that only exists for a few minutes each day. Golden Hours is an exploration of silence and the unsaid.",
     credits: [
       { role: "Director", name: "Andreas Daban Elvesund" },
