@@ -9,9 +9,9 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-      className="group relative flex flex-col gap-6"
+      className="group relative flex flex-col gap-4 sm:gap-6"
     >
-      <Link href={`/projects/${project.id}`} className="block overflow-hidden aspect-[16/9]">
+      <Link href={`/projects/${project.id}`} className="relative block overflow-hidden aspect-[4/5] sm:aspect-[16/9] min-h-[360px] sm:min-h-0">
         <img
           src={project.thumbnail || project.image}
           alt={project.title}
@@ -23,7 +23,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       <div className="flex justify-between items-start">
         <div className="space-y-1">
           <Link href={`/projects/${project.id}`}>
-            <h3 className="font-display text-2xl font-bold tracking-tight uppercase group-hover:text-muted-foreground transition-colors">
+            <h3 className="font-display text-xl sm:text-2xl font-bold tracking-tight uppercase group-hover:text-muted-foreground transition-colors">
               {project.title}
             </h3>
           </Link>

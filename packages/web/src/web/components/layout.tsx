@@ -29,7 +29,7 @@ export function Navbar({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (ope
         <Link href="/" className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tighter font-bold hover:italic transition-all duration-300 text-center">Home</Link>
         <Link href="/projects/golden-hours" className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tighter font-bold hover:italic transition-all duration-300 text-center">Work</Link>
         <Link href="/story" className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tighter font-bold hover:italic transition-all duration-300 text-center">Story</Link>
-        <Link href="/about" className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tighter font-bold text-center px-6 hover:italic transition-all duration-300">About</Link>
+        <Link href="/about" className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tighter font-bold text-center px-6 hover:italic transition-all duration-300">Creator and vision</Link>
         <Link href="/contact" className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tighter font-bold hover:italic transition-all duration-300 text-center">Contact</Link>
 
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 mt-6 sm:mt-10 md:mt-16 items-center">
