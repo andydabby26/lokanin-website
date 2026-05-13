@@ -26,7 +26,6 @@ export default function About() {
                       <p className="font-sans text-[11px] uppercase tracking-tighter text-muted-foreground/50">Texting only</p>
                     </div>
                   </div>
-
                   <div className="space-y-2">
                     <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Social</h3>
                     <div className="flex flex-col gap-1">
@@ -35,12 +34,10 @@ export default function About() {
                       <a href="https://www.instagram.com/lokaninfilms/" target="_blank" rel="noopener noreferrer" className="font-sans text-[15px] hover:opacity-50 transition-opacity min-h-[28px] flex items-center">Insta @lokaninfilms</a>
                     </div>
                   </div>
-
                   <div className="space-y-2">
                     <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Location</h3>
                     <p className="font-sans text-sm">Sweden</p>
                   </div>
-
                   <div className="space-y-4">
                     <div className="space-y-1">
                       <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Film</h3>
@@ -151,7 +148,6 @@ export default function About() {
                   <p>My stories often have open endings because life doesn't always provide clean resolutions. At its core, my philosophy is one of observation and honesty, seeking to capture the raw, unvarnished reality of human experience.</p>
                 </div>
               </div>
-              <div><PhotoManager /></div>
               <div className="space-y-8">
                 <h3 className="font-sans text-[10px] tracking-[0.4em] uppercase text-muted-foreground border-b border-white/10 pb-4">Recognition</h3>
                 <div className="space-y-5">
@@ -191,6 +187,9 @@ export default function About() {
                   <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Location</h3>
                   <p className="font-sans text-sm">Sweden</p>
                 </div>
+              </div>
+              <div>
+                <PhotoManager />
               </div>
             </div>
           </motion.div>
