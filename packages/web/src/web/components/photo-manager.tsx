@@ -23,7 +23,6 @@ export function PhotoManager() {
     <div className="space-y-4 sm:space-y-6">
       <div className="flex justify-between items-center border-b border-white/5 pb-4">
         <h3 className="font-sans text-[10px] tracking-[0.4em] uppercase text-muted-foreground text-left">Photography</h3>
-        <span className="text-[10px] uppercase tracking-widest text-muted-foreground">Scroll</span>
       </div>
 
       <div className="max-h-[78vh] overflow-y-auto pr-2 space-y-3 sm:space-y-4 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
@@ -46,11 +45,6 @@ export function PhotoManager() {
             <div className="absolute inset-0 bg-black/10 pointer-events-none" />
           </motion.div>
         ))}
-      </div>
-
-      <div className="flex items-center justify-between text-[10px] uppercase tracking-widest text-muted-foreground">
-        <span>{photos.length} photos</span>
-        <span>Vertical scroll</span>
       </div>
 
       <div className="pt-2 flex items-center gap-3">
