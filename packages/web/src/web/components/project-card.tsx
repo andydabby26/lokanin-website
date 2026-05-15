@@ -11,11 +11,11 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       transition={{ duration: 0.8, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
       className="group relative flex flex-col gap-4 sm:gap-6"
     >
-      <Link href={`/projects/${project.id}`} className="relative block overflow-hidden aspect-[4/5] sm:aspect-[16/9] min-h-[360px] sm:min-h-0">
+      <Link href={`/projects/${project.id}`} className="relative block overflow-hidden aspect-[4/5] sm:aspect-[16/9] min-h-[360px] sm:min-h-0 bg-black">
         <img
           src={project.thumbnail || project.image}
           alt={project.title}
-          className="w-full h-full object-cover object-center grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+          className="w-full h-full object-contain sm:object-cover object-center grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
       </Link>
