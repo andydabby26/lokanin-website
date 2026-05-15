@@ -19,13 +19,13 @@ export default function About() {
                     <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Contact</h3>
                     <div className="flex flex-col gap-1">
                       <a href="mailto:lokaninfilms@gmail.com" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[28px] flex items-center">lokaninfilms@gmail.com</a>
-                      <a href="mailto:andydabby@gmail.com" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[28px] flex items-center">andydabby@gmail.com</a>
                     </div>
                     <div className="pt-1">
                       <a href="tel:+46704691414" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[28px] flex items-center">(+46) 704691414</a>
                       <p className="font-sans text-[11px] uppercase tracking-tighter text-muted-foreground/50">Texting only</p>
                     </div>
                   </div>
+
                   <div className="space-y-2">
                     <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Social</h3>
                     <div className="flex flex-col gap-1">
@@ -34,10 +34,12 @@ export default function About() {
                       <a href="https://www.instagram.com/lokaninfilms/" target="_blank" rel="noopener noreferrer" className="font-sans text-[15px] hover:opacity-50 transition-opacity min-h-[28px] flex items-center">Insta @lokaninfilms</a>
                     </div>
                   </div>
+
                   <div className="space-y-2">
                     <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Location</h3>
                     <p className="font-sans text-sm">Sweden</p>
                   </div>
+
                   <div className="space-y-4">
                     <div className="space-y-1">
                       <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Film</h3>
@@ -168,7 +170,6 @@ export default function About() {
                   <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Contact</h3>
                   <div className="flex flex-col gap-1">
                     <a href="mailto:lokaninfilms@gmail.com" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[32px] flex items-center">lokaninfilms@gmail.com</a>
-                    <a href="mailto:andydabby@gmail.com" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[32px] flex items-center">andydabby@gmail.com</a>
                   </div>
                   <div className="pt-1">
                     <a href="tel:+46704691414" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[32px] flex items-center">(+46) 704691414</a>

@@ -4,50 +4,21 @@ import { motion } from "framer-motion";
 export default function Contact() {
   return (
     <Layout>
-      <section className="min-h-[82svh] sm:min-h-[88svh] flex items-center justify-center px-4 sm:px-6 py-20 sm:py-24 md:py-28">
-        <div className="max-w-xl w-full text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+      <section className="min-h-[calc(100vh-5rem)] flex items-center justify-center px-4 sm:px-6 py-16 sm:py-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          className="text-center max-w-2xl mx-auto"
+        >
+          <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-muted-foreground mb-4 sm:mb-6">Get in touch</p>
+          <a
+            href="mailto:lokaninfilms@gmail.com"
+            className="font-serif text-lg sm:text-xl md:text-2xl text-muted-foreground hover:text-foreground transition-colors italic block break-words min-h-[44px] flex items-center justify-center"
           >
-            <span className="font-sans text-[10px] tracking-[0.4em] uppercase text-muted-foreground mb-8 sm:mb-10 block">
-              Contact
-            </span>
-
-            <h2 className="font-display text-[clamp(2rem,7vw,3.75rem)] font-bold tracking-tighter uppercase mb-10 sm:mb-12 leading-[0.92] break-words">
-              lets create <br /> something together
-            </h2>
-
-            <div className="space-y-8 sm:space-y-10">
-              <div className="space-y-4 md:space-y-2">
-                <a href="mailto:lokaninfilms@gmail.com" className="font-serif text-xl sm:text-2xl md:text-4xl hover:text-muted-foreground transition-colors italic block break-words min-h-[44px] flex items-center justify-center">
-                  lokaninfilms@gmail.com
-                </a>
-                <a href="mailto:andydabby@gmail.com" className="font-serif text-lg sm:text-xl md:text-2xl text-muted-foreground hover:text-foreground transition-colors italic block break-words min-h-[44px] flex items-center justify-center">
-                  andydabby@gmail.com
-                </a>
-              </div>
-
-              <div className="space-y-2">
-                <a href="tel:+46704691414" className="font-sans text-base sm:text-lg tracking-tight hover:text-muted-foreground transition-colors min-h-[44px] flex items-center justify-center">
-                  (+46) 704691414
-                </a>
-                <p className="font-sans text-[10px] tracking-[0.2em] uppercase text-muted-foreground/60">
-                  Texting only
-                </p>
-              </div>
-
-              <div className="pt-8 sm:pt-10 border-t border-white/5">
-                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 md:gap-12">
-                  <a href="https://www.youtube.com/channel/UCmJYcx0T8qrgVDWnfIsYsHg" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase hover:text-muted-foreground transition-colors min-h-[44px] flex items-center">YouTube</a>
-                  <a href="https://www.instagram.com/andreas.daban/" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase hover:text-muted-foreground transition-colors min-h-[44px] flex items-center text-center">Instagram (@andreas.daban)</a>
-                  <a href="https://www.instagram.com/lokaninfilms/" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase hover:text-muted-foreground transition-colors min-h-[44px] flex items-center text-center">Instagram (@lokaninfilms)</a>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
+            lokaninfilms@gmail.com
+          </a>
+        </motion.div>
       </section>
     </Layout>
   );
