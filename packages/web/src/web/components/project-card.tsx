@@ -15,7 +15,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         <img
           src={project.thumbnail || project.image}
           alt={project.title}
-          className="w-full h-full object-contain sm:object-cover object-center grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+          className="w-full h-full object-cover sm:object-cover object-center grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
       </Link>

@@ -1,0 +1,9 @@
+{
+  "id": "website",
+  "name": "LokaninFilms",
+  "description": "LokaninFilms — Film production in Stockholm. Winner of Stockholm Film Festival Junior 2025 with our movie Golden Hours.",
+  "root": "packages/web",
+  "buildCommand": "bun install && bunx vite build",
+  "outputDirectory": "dist",
+  "port": 4200
+}

@@ -137,13 +137,13 @@ export default function About() {
         </div>
       </section>
 
-      <section className="block md:hidden pt-20 sm:pt-24 pb-14 sm:pb-16 px-4 sm:px-6">
+      <section className="block md:hidden pt-20 sm:pt-24 pb-10 sm:pb-12 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}>
             <div className="grid grid-cols-1 gap-8 sm:gap-10">
               <div className="space-y-5 sm:space-y-6">
-                <h1 className="font-display text-[clamp(2.25rem,8vw,4.5rem)] font-bold tracking-tighter uppercase leading-[0.9] break-words">Andreas Daban Elvesund</h1>
-                <p className="font-sans text-xs tracking-[0.15em] uppercase text-muted-foreground">Filmmaker, director, editor, piano player and photographer.</p>
+                <h1 className="font-display text-[clamp(2.25rem,8vw,4.5rem)] font-bold tracking-tighter uppercase leading-[0.9] break-words">Andreas daban elvesund</h1>
+                <p className="font-sans text-xs tracking-[0.15em] uppercase text-muted-foreground">Filmmaker, director, editor, piano Player and photographer.</p>
                 <div className="space-y-4 sm:space-y-5 font-serif text-base sm:text-lg leading-relaxed text-foreground/80 max-w-2xl">
                   <p>I make short films that explore the space between what we show the world and what we truly feel. My work is often focused on the lives of young people, capturing those quiet, formative moments of transition. I believe in natural performances and a calm, observational pace that allows the story to breathe.</p>
                   <p>Dialogue is often a last resort; I prefer to let silence, framing, and sound design carry the emotional weight. For me, music and color are not just decorative—they are essential narrative tools that shape the atmosphere.</p>
@@ -169,7 +169,6 @@ export default function About() {
                 <div className="space-y-2">
                   <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Contact</h3>
                   <div className="flex flex-col gap-1">
-                    <a href="mailto:lokaninfilms@gmail.com" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[32px] flex items-center">lokaninfilms@gmail.com</a>
                   </div>
                   <div className="pt-1">
                     <a href="tel:+46704691414" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[32px] flex items-center">(+46) 704691414</a>
