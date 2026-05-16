@@ -12,7 +12,7 @@ export default function Index() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/45 to-background z-10" />
           <div 
-            className="w-full h-full bg-cover bg-center animate-slow-zoom"
+            className="w-full h-full bg-contain bg-center bg-no-repeat sm:bg-cover animate-slow-zoom"
             style={{ 
               backgroundImage: `url('/images/hero-lokaninfilms-cinema.jpg')`,
               filter: 'grayscale(0) brightness(0.35)'
