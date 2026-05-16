@@ -20,7 +20,7 @@ export const projects: Project[] = [
     role: "Director",
     format: "Short film",
     image: "/images/project-golden-hours-big.png",
-    thumbnail: "/images/project-golden-hours-big.png",
+    thumbnail: "/images/hero-golden-hours.jpg",
     videoUrl: "https://www.youtube.com/embed/xhMJWNTb5-w",
     description: "",
     note: "I wanted to capture the feeling of a memory fading—that specific light that only exists for a few minutes each day. Golden Hours is an exploration of silence and the unsaid.",

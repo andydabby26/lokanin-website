@@ -189,11 +189,14 @@ export default function About() {
                   <p className="font-sans text-sm">Sweden</p>
                 </div>
               </div>
-              <div>
-                <PhotoManager />
-              </div>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="block md:hidden px-4 sm:px-6 pb-14 sm:pb-16">
+        <div className="max-w-7xl mx-auto">
+          <PhotoManager />
         </div>
       </section>
     </Layout>
