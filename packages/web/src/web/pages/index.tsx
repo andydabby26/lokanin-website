@@ -12,12 +12,13 @@ export default function Index() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/45 to-background z-10" />
           <div 
-            className="w-full h-full bg-contain bg-center bg-no-repeat sm:bg-cover animate-slow-zoom"
+            className="w-full h-full bg-cover bg-center bg-no-repeat animate-slow-zoom"
             style={{ 
               backgroundImage: `url('/images/hero-lokaninfilms-cinema.jpg')`,
               filter: 'grayscale(0) brightness(0.35)'
             }} 
           />
+          <style>{`@media (max-width: 639px) { .animate-slow-zoom { transform: none !important; background-size: contain !important; } }`}</style>
           <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-20 bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
         </div>
 
