@@ -169,6 +169,7 @@ export default function About() {
                 <div className="space-y-2">
                   <h3 className="font-sans text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Contact</h3>
                   <div className="flex flex-col gap-1">
+                    <a href="mailto:lokaninfilms@gmail.com" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[28px] flex items-center">lokaninfilms@gmail.com</a>
                   </div>
                   <div className="pt-1">
                     <a href="tel:+46704691414" className="font-sans text-sm hover:text-muted-foreground transition-colors min-h-[32px] flex items-center">(+46) 704691414</a>
